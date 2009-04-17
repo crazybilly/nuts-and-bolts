@@ -1,26 +1,53 @@
+/*
+Theme Name: Nuts and Bolts
+Theme URI: http://listento.jaketolbert.com
+Description: a grungy Wordpress theme
+Version: 0.1
+Author: crazybilly & Aaron Mahnke
+Author URI: http://www.wetfrogstudios.com
+*/
+
+
 * {
 	line-height: 1.5;
 	font-size: 100%;
 	}
 
 body {
-	background-color: #969696;
+	background-color: #3C3C3C;
 	}
+
+.container {
+	background-color: #969696;
+	width: 900px; 
+	margin: auto;
+	}
+
+/* --------------------- HEADER ----------------- */
+
+.header {
+	background: url(images/header.jpg) no-repeat;
+	height: 200px;
+	width: 100%;
+	}
+
+/* --------------------- SIDEBAR ---------------- */
 
 .sidebar {
 	list-style: none;
-}
+	width: 225px;
+	float: right;
+	}
 
 .sidebar-item {
 	width: 13em;
 	background: url(images/sidebar-se.png) no-repeat bottom right;
-
-}
+	}
 
 .sidebar-title {
 	color: #C0BFBC;
 	background: url('images/sidebar-ne.png') no-repeat top right;
-}
+	}
 
 .sidebar-title h2 {
 	background: url('images/sidebar-nw.png') no-repeat top left;
@@ -35,8 +62,7 @@ body {
 	list-style: none;
 	margin-top: 0;
 	padding: 0 3em 2em 1.5em;
-
-}
+	}
 
 .sidebar-list li {
 	border-bottom: 1px solid #969696;
