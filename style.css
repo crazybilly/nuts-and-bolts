@@ -11,6 +11,8 @@ Author URI: http://www.wetfrogstudios.com
 * {
 	line-height: 1.5;
 	font-size: 100%;
+	margin: 0;
+	padding: 0;
 	}
 
 body {
@@ -30,6 +32,47 @@ body {
 	height: 200px;
 	width: 100%;
 	}
+
+.header h1 {
+	color: #3C3C3C;
+	font-size: 3em;
+	text-transform: lowercase;
+	}
+
+.header h2 {
+	color: #3C3C3C;
+	font-size: 2em;
+	text-transform: lowercase;
+	}
+
+/* ---------- NAV --------------- */
+	/* what the crap am going to attach the other two images to? */
+
+.nav {
+	background: url(images/nav-se.png) no-repeat bottom right;
+	width: 870px;
+	}
+
+.inner-nav {
+	background: url(images/nav-ne.png) no-repeat top right;
+	}
+
+.nav ul {
+	list-style; none;
+	display: inline;
+	}
+
+.nav li {
+	list-style: none;
+	display: inline;
+	color: #969696
+	}
+
+.nav #current {
+	/* background: gotta figure this one out */
+	color: #FBFBFB;
+	}
+
 
 /* --------------------- SIDEBAR ---------------- */
 
@@ -69,4 +112,33 @@ body {
 	width: 9em;
 	padding-top: 1.1em;
 	}
+	
+/* ------------------- CONTENT --------------- */
 
+.content {
+	width: /* need to figure out exact width, including gutters */;
+	}
+
+.post {
+	
+	}
+
+.post h2 {
+	
+	}
+
+.post-meta {
+	text-transform: lowercase;
+	background: /* this can be a 1px vertical repeating img */ ;
+	}
+
+.post p {
+
+	}
+
+.post img {	
+	/* how does WP do captions? */
+	}
+
+.post-tags {
+	background: /* 1px vert img w/ repeat? maybe not (rounded bottom corners?) */ ;
