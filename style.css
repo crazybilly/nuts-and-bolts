@@ -25,6 +25,7 @@ body {
 	margin: auto;
 	}
 
+
 /* --------------------- HEADER ----------------- */
 
 .header {
@@ -44,6 +45,7 @@ body {
 	font-size: 2em;
 	text-transform: lowercase;
 	}
+
 
 /* ---------- NAV --------------- */
 	/* what the crap am going to attach the other two images to? */
@@ -71,6 +73,7 @@ body {
 .nav #current {
 	/* background: gotta figure this one out */
 	color: #FBFBFB;
+	padding: 7px; /* not exact */
 	}
 
 
@@ -112,6 +115,7 @@ body {
 	width: 9em;
 	padding-top: 1.1em;
 	}
+
 	
 /* ------------------- CONTENT --------------- */
 
@@ -132,6 +136,14 @@ body {
 	background: /* this can be a 1px vertical repeating img */ ;
 	}
 
+.post-date {
+	
+	}
+
+.post-comments-link {
+
+	}
+
 .post p {
 
 	}
@@ -140,5 +152,37 @@ body {
 	/* how does WP do captions? */
 	}
 
+.post blockquote {
+	margin-left: 2em; /* not exact */
+	}
+
+.post ul {
+	margin-left: 2em; /* not exact */
+	}
+
 .post-tags {
-	background: /* 1px vert img w/ repeat? maybe not (rounded bottom corners?) */ ;
+	background: /* 1px vert img w/ repeat? maybe not (rounded bottom corners?) probably do old-school sliding doors */ ;
+	}
+
+.post-tags h4 {
+	text-transform: lowercase;
+	color: #FBFBFB;
+	display: inline;
+	}
+
+.post-tags ul, li {
+	display: inline;
+	}
+
+/* --------need to do comments -----------*/
+
+/* ----------------- FOOTER ------------------- */
+
+.footer {
+	background: /* another 1px vert img */
+	color: #969696;
+	clear: both;
+	width: 100%;
+	font-size: .9em; /* not exact */
+	}
+
