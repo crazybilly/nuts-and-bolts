@@ -29,14 +29,14 @@ body {
 /* --------------------- HEADER ----------------- */
 
 .header {
-	background: url(images/header.jpg) no-repeat;
+	background: url(images/header.png) no-repeat;
 	height: 200px;
 	width: 100%;
 	}
 
 .header h1 {
 	color: #3C3C3C;
-	font-size: 3em;
+	font-size: 2.5em;
 	text-transform: lowercase;
 	}
 
@@ -49,10 +49,13 @@ body {
 
 /* ---------- NAV --------------- */
 	/* what the crap am going to attach the other two images to? */
+	/* don't do like that--just do a static image size
+	 * make sure font-sizes are in px, though					*/
 
 .nav {
 	background: url(images/nav-se.png) no-repeat bottom right;
 	width: 870px;
+	text-transform: lowercase;
 	}
 
 .inner-nav {
@@ -67,11 +70,12 @@ body {
 .nav li {
 	list-style: none;
 	display: inline;
-	color: #969696
+	color: #969696;
+	padding: 14px 44px;
 	}
 
 .nav #current {
-	/* background: gotta figure this one out */
+	background: url(images/nav-current.png) no-repeat;
 	color: #FBFBFB;
 	padding: 7px; /* not exact */
 	}
@@ -81,7 +85,7 @@ body {
 
 .sidebar {
 	list-style: none;
-	width: 225px;
+	width: 195px;
 	float: right;
 	}
 
