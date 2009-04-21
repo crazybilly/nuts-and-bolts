@@ -17,6 +17,7 @@ Author URI: http://www.wetfrogstudios.com
 
 body {
 	background-color: #3C3C3C;
+	font-family: 'ArialMT','Arial',sans-serif;
 	}
 
 .container {
@@ -36,14 +37,19 @@ body {
 
 .header h1 {
 	color: #3C3C3C;
-	font-size: 2.5em;
+	font-size: 30px;
 	text-transform: lowercase;
+	font-weight: 400;
+	margin-left: 20px;
+	line-height: 1;
 	}
 
 .header h2 {
 	color: #3C3C3C;
-	font-size: 2em;
+	font-size: 18px;
 	text-transform: lowercase;
+	font-weight: 400;
+	margin-left: 20px;
 	}
 
 
@@ -53,9 +59,13 @@ body {
 	 * make sure font-sizes are in px, though					*/
 
 .nav {
-	background: url(images/nav-se.png) no-repeat bottom right;
-	width: 870px;
+	background: url(images/nav.png) no-repeat bottom right;
+	width: 888px;
 	text-transform: lowercase;
+	/*padding: 65px 0 0 29px;*/
+	height: 91px;
+	font-size: 17px;
+	margin-left: 12px;
 	}
 
 .inner-nav {
@@ -64,20 +74,20 @@ body {
 
 .nav ul {
 	list-style; none;
-	display: inline;
+	padding: 38px 37px 37px 27px;
+	width: 100%;
 	}
 
 .nav li {
 	list-style: none;
 	display: inline;
 	color: #969696;
-	padding: 14px 44px;
+	padding: 14px 44.5px;
 	}
 
 .nav #current {
 	background: url(images/nav-current.png) no-repeat;
 	color: #FBFBFB;
-	padding: 7px; /* not exact */
 	}
 
 
