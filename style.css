@@ -138,16 +138,24 @@ body {
 	}
 
 .post {
-	
+	background: url(images/post-se.png) no-repeat bottom right;
+	width: 664px;
+	padding: 0;
 	}
 
-.post h2 {
-	
+.post-head {
+	background: url(images/post-ne.png) no-repeat top right;
+	height: 77px;
+	}
+
+.post-head h2 {
+	background: url(images/post-nw.png) no-repeat top left;
+	padding: 14px;
 	}
 
 .post-meta {
 	text-transform: lowercase;
-	background: /* this can be a 1px vertical repeating img */ ;
+	//margin-left: 25px;
 	}
 
 .post-date {
@@ -158,11 +166,18 @@ body {
 
 	}
 
-.post p {
+.post-content  {
+	background: url(images/post.png) repeat-y;
+	border-left: 1px solid #656463;
+	border-right: 1px solid #656463;
+	padding: 15px 15px 0 15px;
+	}
+
+.post-content p {
 
 	}
 
-.post img {	
+.post-content img {	
 	/* how does WP do captions? */
 	}
 
@@ -174,17 +189,17 @@ body {
 	margin-left: 2em; /* not exact */
 	}
 
-.post-tags {
-	background: /* 1px vert img w/ repeat? maybe not (rounded bottom corners?) probably do old-school sliding doors */ ;
+.post-foot{
+	background: url(images/post-sw.png) no-repeat bottom left;
 	}
 
-.post-tags h4 {
+.post-foot h4 {
 	text-transform: lowercase;
 	color: #FBFBFB;
 	display: inline;
 	}
 
-.post-tags ul, li {
+.post-foot ul, li {
 	display: inline;
 	}
 
