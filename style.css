@@ -90,13 +90,19 @@ body {
 	color: #FBFBFB;
 	}
 
+/* --------------------- CONTENT CONTAINER ---------------- */
+
+.content {
+	width: 887px
+	background-color: #969696;
+	}
 
 /* --------------------- SIDEBAR ---------------- */
 
 .sidebar {
 	list-style: none;
 	width: 195px;
-	float: right;
+	margin-left: 683px;
 	}
 
 .sidebar-item {
@@ -117,10 +123,11 @@ body {
 	}
 
 .sidebar-list {
-	color: #969696;
+	color: #3C3C3C;
 	background: url('images/sidebar-sw.png') no-repeat bottom left;
 	list-style: none;
 	margin-top: 0;
+	font-size: 13.3px;
 	padding: 0 3em 2em 1.5em;
 	}
 
@@ -131,16 +138,14 @@ body {
 	}
 
 	
-/* ------------------- CONTENT --------------- */
+/* ------------------- POST CONTENT --------------- */
 
-.content {
-	width: /* need to figure out exact width, including gutters */;
-	}
 
 .post {
-	background: url(images/post-se.png) no-repeat bottom right;
+	background: url(images/post-sw.png) no-repeat bottom left #C0BFBC;
 	width: 664px;
 	padding: 0;
+	float: left;
 	}
 
 .post-head {
@@ -151,11 +156,18 @@ body {
 .post-head h2 {
 	background: url(images/post-nw.png) no-repeat top left;
 	padding: 14px;
+	min-height: 49px;
+	color: #C0BFBC;
 	}
 
 .post-meta {
 	text-transform: lowercase;
-	//margin-left: 25px;
+	margin-left: 5.5em;
+	margin-top: -28px;
+	color: #C0BFBC;
+	font-weight: bold;
+	font-size: .95em;
+
 	}
 
 .post-date {
@@ -170,15 +182,25 @@ body {
 	background: url(images/post.png) repeat-y;
 	border-left: 1px solid #656463;
 	border-right: 1px solid #656463;
-	padding: 15px 15px 0 15px;
+	padding: 15px 30px 0 30px;
+	font-size: .95em;
+	color: #3C3C3C;
+
 	}
 
 .post-content p {
-
+	line-height: 1.3;
+	margin-top: 1em;
 	}
 
 .post-content img {	
 	/* how does WP do captions? */
+	float: right;
+	/*this needs replaced w/ a real div for captions */
+	padding: 5px;
+	margin: 10px;
+	background-color: #969696;
+	border: 1px solid gray;
 	}
 
 .post blockquote {
@@ -190,16 +212,34 @@ body {
 	}
 
 .post-foot{
-	background: url(images/post-sw.png) no-repeat bottom left;
+	background: url(images/post-se.png) no-repeat bottom right;
+	font-size: .95em;
+	min-height: 37px;
+	text-transform: lowercase;
+	color: #C0BFBC;
+	clear: both;
+	}
+
+.post-foot-inside {
+	margin-top: 1em;
 	}
 
 .post-foot h4 {
 	text-transform: lowercase;
 	color: #FBFBFB;
 	display: inline;
+	position: relative;
+	top: .3em; /* not exact */
+	padding-left: 5.5em;
 	}
 
-.post-foot ul, li {
+.post-foot ul {
+	position: relative;
+	top: .3em; /* not exact */
+	display: inline;
+	}
+
+.post-foot li {
 	display: inline;
 	}
 
