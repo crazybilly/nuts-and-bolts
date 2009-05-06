@@ -243,7 +243,57 @@ body {
 	display: inline;
 	}
 
-/* --------need to do comments -----------*/
+/* ----------------- COMMENTS ------------------*/
+
+.comments {
+	background: url(images/comments-se.png) no-repeat bottom right;
+	}
+
+.comments h3 {
+	background: url(images/comments-n.png) no-repeat top;
+	width: 100%; /* (this is probably wrong) */
+	}
+
+.comments ol {
+	background: url(images/comments-mid.png) repeat-y;
+	}
+
+	.comments li {
+		background: url(images/one-comment-se.png) no-repeat bottom right;
+		/* width: ??  need to figure this out*/
+		}
+	
+	.comments .avatar img {
+		background: url(images/one-comment-nw.png) no-repeat top left;
+		/* width: ??  need to figure this out*/
+		/* height: ??  need to figure this out*/
+		/* padding: ??  need to figure this out*/
+		/* margin: ??  need to figure this out*/
+		}
+	
+	.comment-author {
+		background: url(images/one-comment-ne.png) no-repeat top right;
+		}
+	
+	.comment-author h4 {
+		color: /*red - remember these are commments*/;
+		}
+	
+	.comment-author h5 {
+		color: /*gray - remember these are commments*/
+		}
+	
+	.comment-text {
+		}
+	
+	h5.comment-reply {
+		color: /*red - remember these are commments*/;
+		background: url(images/one-comment-sw.png) no-repeat bottom left;
+		}
+	
+
+
+
 
 /* ----------------- FOOTER ------------------- */
 
