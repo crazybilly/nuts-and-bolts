@@ -247,24 +247,35 @@ body {
 
 .comments {
 	background: url(images/comments-se.png) no-repeat bottom right;
+	padding-bottom: 22px; /* this will probably need to be adjusted later */
+	width: 663px;
+	font-size: 12px;
 	}
 
 .comments h3 {
-	background: url(images/comments-n.png) no-repeat top;
-	width: 100%; /* (this is probably wrong) */
+	background: url(images/comments-n.png) no-repeat top left;
+		/* looks like this images is off by one pixel 
+			fix by giving the ol a 1px margin-left   */
+	color: #BBBBBB;
+	font-size: 16px;
+	padding: 49px 0 13px 53px;
 	}
 
 .comments ol {
 	background: url(images/comments-mid.png) repeat-y;
+	width: 652px;
+	margin-left: 1px; /* this is a hack--just fix the images */
 	}
 
 	.comments li {
 		background: url(images/one-comment-se.png) no-repeat bottom right;
+		list-style: none;
 		/* width: ??  need to figure this out*/
 		}
 	
-	.comments .avatar img {
-		background: url(images/one-comment-nw.png) no-repeat top left;
+	.comments .avatar {
+		background: url(images/one-comment-n.png) no-repeat top left;
+		float: left;
 		/* width: ??  need to figure this out*/
 		/* height: ??  need to figure this out*/
 		/* padding: ??  need to figure this out*/
@@ -272,22 +283,28 @@ body {
 		}
 	
 	.comment-author {
-		background: url(images/one-comment-ne.png) no-repeat top right;
+		/* background: url(images/one-comment-ne.png) no-repeat top right;
+			just do one top image*/
 		}
 	
 	.comment-author h4 {
-		color: /*red - remember these are commments*/;
+		color: #A84030; /*red - remember these are commments*/;
+		text-transform: lowercase;
 		}
 	
 	.comment-author h5 {
-		color: /*gray - remember these are commments*/
+		color: #3C3C3C; /* gray */
 		}
 	
 	.comment-text {
+		color: #3C3C3C; /* gray */
 		}
 	
 	h5.comment-reply {
-		color: /*red - remember these are commments*/;
+		color: #A84030; /*red - remember these are commments*/
+		font-weight: normal;
+		font-size: 12px;
+		text-transform: lowercase;
 		background: url(images/one-comment-sw.png) no-repeat bottom left;
 		}
 	
