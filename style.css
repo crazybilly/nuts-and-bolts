@@ -142,10 +142,13 @@ body {
 
 
 .post {
-	background: url(images/post-sw.png) no-repeat bottom left #C0BFBC;
 	width: 664px;
 	padding: 0;
 	float: left;
+	}
+
+.one-post {
+	background: url(images/post-sw.png) no-repeat bottom left #C0BFBC;
 	}
 
 .post-head {
@@ -270,34 +273,41 @@ body {
 	.comments li {
 		background: url(images/one-comment-se.png) no-repeat bottom right;
 		list-style: none;
+		margin-left: 11px;
+		width: 100%;
 		/* width: ??  need to figure this out*/
 		}
 	
 	.comments .avatar {
-		background: url(images/one-comment-n.png) no-repeat top left;
 		float: left;
-		/* width: ??  need to figure this out*/
-		/* height: ??  need to figure this out*/
-		/* padding: ??  need to figure this out*/
-		/* margin: ??  need to figure this out*/
+		margin: 5px;
+		width: 30px;
 		}
 	
 	.comment-author {
-		/* background: url(images/one-comment-ne.png) no-repeat top right;
-			just do one top image*/
+		 background: url(images/one-comment-n.png) no-repeat top right;
+		 padding: 17px 0 0 29px;
+		 min-height: 53px;
 		}
+
 	
 	.comment-author h4 {
 		color: #A84030; /*red - remember these are commments*/;
 		text-transform: lowercase;
+		padding-left: 4.5em;
 		}
 	
 	.comment-author h5 {
 		color: #3C3C3C; /* gray */
+		padding-left: 4.5em;
 		}
 	
-	.comment-text {
+	.comments p {
 		color: #3C3C3C; /* gray */
+		margin: 0 0 0 9px;
+		width: 90%;
+		background: url(images/comments-text.png) repeat-y;
+		padding: 1em 1em 0.95em 20px;
 		}
 	
 	h5.comment-reply {
@@ -306,6 +316,8 @@ body {
 		font-size: 12px;
 		text-transform: lowercase;
 		background: url(images/one-comment-sw.png) no-repeat bottom left;
+		padding: 17px 0 1em 3.5em;	
+		margin: -12px 0 0 -11px;
 		}
 	
 
