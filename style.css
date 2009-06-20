@@ -250,6 +250,7 @@ body {
 
 .comments {
 	background: url(images/comments-se.png) no-repeat bottom right;
+		/* change this from "se" to "s" and just do the whole bottom */
 	padding-bottom: 22px; /* this will probably need to be adjusted later */
 	width: 663px;
 	font-size: 12px;
