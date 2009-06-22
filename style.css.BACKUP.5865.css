@@ -262,7 +262,12 @@ body {
 /* ----------------- COMMENTS ------------------*/
 
 .comments {
+<<<<<<< HEAD:style.css
+	background: url(images/comments-se.png) no-repeat bottom right;
+		/* change this from "se" to "s" and just do the whole bottom */
+=======
 	background: url(images/comments-s.png) no-repeat bottom right;
+>>>>>>> 2bd9d3ffc88a93c3046e07b4fb8f8b76bdf87624:style.css
 	padding-bottom: 22px; /* this will probably need to be adjusted later */
 	width: 663px;
 	font-size: 12px;

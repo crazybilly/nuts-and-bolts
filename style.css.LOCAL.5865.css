@@ -214,19 +214,6 @@ body {
 	margin-left: 2em; /* not exact */
 	}
 
-.post a {
-	color: #717171;
-	}
-
-.post a:visted {
-	color: #969696
-	}
-
-.post a:hover {
-	color: #BCBCBC;
-	}	
-	
-
 .post-foot{
 	background: url(images/post-se.png) no-repeat bottom right;
 	font-size: .95em;
@@ -262,7 +249,8 @@ body {
 /* ----------------- COMMENTS ------------------*/
 
 .comments {
-	background: url(images/comments-s.png) no-repeat bottom right;
+	background: url(images/comments-se.png) no-repeat bottom right;
+		/* change this from "se" to "s" and just do the whole bottom */
 	padding-bottom: 22px; /* this will probably need to be adjusted later */
 	width: 663px;
 	font-size: 12px;
@@ -340,34 +328,10 @@ body {
 /* ----------------- FOOTER ------------------- */
 
 .footer {
-	background: url(images/footer.png) repeat-x;
-	color: #C0BFBC;
+	background: /* another 1px vert img */
+	color: #969696;
 	clear: both;
 	width: 100%;
-	font-size: .8em; /* not exact */
-	padding: 1em 0;
-	height: 40px;
+	font-size: .9em; /* not exact */
 	}
-
-.footer h5 {
-	border-left: 1px solid #969696;
-	margin: 0 1em ;
-	padding: 0 1em 0 3em;
-	display: inline;
-	}
-
-.footer a {
-	color: #C0BFBC;
-	text-decoration: none;
-}
-
-.footer a:visited {
-	color: #969696;
-	text-decoration: none;
-}
-
-.footer a:hover {
-	color: #BCBCBC;
-	text-decoration: none;
-}
 
