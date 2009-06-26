@@ -1,0 +1,62 @@
+<html xmlns:tomboy="http://beatniksoftware.com/tomboy" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size"><head><META http-equiv="Content-Type" content="text/html; charset=utf-8"><title>Template Structure</title><style type="text/css">
+        
+	body {  }
+	h1 { font-size: xx-large;
+     	     font-weight: bold;
+     	     border-bottom: 1px solid black; }
+	div.note {
+		   position: relative;
+		   display: block;
+		   padding: 5pt;
+		   margin: 5pt; 
+		   white-space: -moz-pre-wrap; /* Mozilla */
+ 	      	   white-space: -pre-wrap;     /* Opera 4 - 6 */
+ 	      	   white-space: -o-pre-wrap;   /* Opera 7 */
+ 	      	   white-space: pre-wrap;      /* CSS3 */
+ 	      	   word-wrap: break-word;      /* IE 5.5+ */ }
+	</style></head><body><div class="note" id="Template Structure"><a name="template structure"></a><h1>Template Structure</h1>
+Index (functional home) - unique
+
+
+	<a style="color:#204A87" href="#single">single</a> - unique (like mockup)
+
+	<a style="color:#204A87" href="#search">search</a> - unique
+	<a style="color:#204A87" href="#404">404</a> (copy of <a style="color:#204A87" href="#search">search</a>?)
+	
+	<a style="color:#204A87" href="#page">Page</a> (copy of <a style="color:#204A87" href="#single">single</a>)
+
+	<a style="color:#204A87" href="#archive">Archive</a> (copy of index)
+
+		<a style="color:#204A87" href="#category">category</a>  (copy of index)
+		<a style="color:#204A87" href="#tag">tag</a> (copy of index)
+		<a style="color:#204A87" href="#date">date</a> (copy of index)</div>
+<div class="note" id="single"><a name="single"></a><h1>single</h1>
+Post titles as <a style="color:#204A87" href="#page">page</a> title
+comment link
+comment text</div>
+<div class="note" id="search"><a name="search"></a><h1>search</h1>
+Title = "Results for &lt;? $search_query ?&gt;" 
+
+????</div>
+<div class="note" id="404"><a name="404"></a><h1>404</h1>
+You screwed it up. 
+
+Display <a style="color:#204A87" href="#search">search</a> results, perhaps?</div>
+<div class="note" id="Page"><a name="page"></a><h1>Page</h1>
+Fall back on <a style="color:#204A87" href="#single">single</a>, or just copy it. Do these need to be any different?</div>
+<div class="note" id="Archive"><a name="archive"></a><h1>Archive</h1>
+Title = "Archives"
+
+otherwise identical to <a style="color:#204A87" href="#index (functional home)">Index (functional home)</a></div>
+<div class="note" id="category"><a name="category"></a><h1>category</h1>
+Title = &lt;? category_title() ?&gt;
+
+otherwise like <a style="color:#204A87" href="#index (functional home)">Index (functional home)</a></div>
+<div class="note" id="tag"><a name="tag"></a><h1>tag</h1>
+Title = &lt;? tag_slug() ?&gt;
+
+otherwise like <a style="color:#204A87" href="#index (functional home)">Index (functional home)</a></div>
+<div class="note" id="date"><a name="date"></a><h1>date</h1>
+Title = &lt;? date_range() ?&gt;
+
+otherwise like <a style="color:#204A87" href="#index (functional home)">Index (functional home)</a></div></body></html>
