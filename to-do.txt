@@ -1,0 +1,7 @@
+create an admin section to fill out contact info? create a widget for it? 
+
+page
+archive/search/category/tag
+404 (use search?)
+
+test (sooner rather than later!!)
