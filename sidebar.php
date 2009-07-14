@@ -41,7 +41,7 @@ if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar() ) :
 			</h2>
 		</div>
 			<ul class="sidebar-list">
-				<? wp_list_bookmarks('title_li=') ?>
+				<? wp_list_bookmarks('categorize=0&title_li='); ?>
 			</ul>
 	</div>
 

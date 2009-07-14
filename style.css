@@ -31,7 +31,7 @@ body {
 
 .header {
 	background: url(images/header.png) no-repeat;
-	height: 200px;
+	height: 176px;
 	width: 100%;
 	}
 
@@ -95,6 +95,11 @@ body {
 	background: url(images/nav-current.png) no-repeat;
 	color: #FBFBFB;
 	}
+
+.nav #current a {
+	color: #dedede;
+	}
+
 
 .nav a {
 	color: #969696;
@@ -165,6 +170,16 @@ body {
 	text-decoration: underline;
 	}
 
+/*----------PAGE TITLE --------------- */
+
+.page-title {
+	color: #C0BFBC;
+	background: url(images/page-title.png) no-repeat;
+	width: 100%;
+	margin: .5em 0 .75em 0;
+	padding: 1em 0 1em 1em;
+	}
+	
 
 	
 /* ------------------- POST CONTENT --------------- */
@@ -189,11 +204,13 @@ body {
 	background: url(images/post-nw.png) no-repeat top left;
 	padding: 14px;
 	min-height: 49px;
+	line-height: 1;
 	}
 
 .post-head h2 a {
 	color: #C0BFBC;
 	text-decoration: none;
+	line-height: 0;
 	}
 
 .post-head h2 a:hover {
@@ -233,7 +250,7 @@ body {
 	background: url(images/post.png) repeat-y;
 	border-left: 1px solid #656463;
 	border-right: 1px solid #656463;
-	padding: 15px 30px 0 30px;
+	padding: 0px 30px 1em;
 	font-size: .95em;
 	color: #3C3C3C;
 
@@ -258,8 +275,9 @@ body {
 	margin-left: 2em; /* not exact */
 	}
 
-.post ul {
+.post ul, ol{
 	margin-left: 2em; /* not exact */
+	margin-top: 1em;
 	}
 
 .post a {
@@ -342,6 +360,7 @@ body {
 	background: url(images/comments-mid.png) repeat-y;
 	width: 652px;
 	margin-left: 1px; /* this is a hack--just fix the images */
+	margin-top: 0;
 	}
 
 	.comments li {

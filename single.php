@@ -44,6 +44,12 @@ get_header();
 
 		</div><!--one-post-->
 
+	<!--grab comment from comments.php -->
+	<?php comments_template(); ?>
+
+	<!--comments end here -->
+
+
 	</div><!--post-->
 
 
